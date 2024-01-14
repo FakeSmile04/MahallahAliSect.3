@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-image: url('Image3.jpg');
+    background-image: url('Images/Image3.jpg');
     /* Replace with your header background image */
     background-size: cover;
     height: 100vh;
@@ -150,25 +150,25 @@ div {
 }
 
 #cafe {
-    background-image: url("Image1.jpg");
+    background-image: url("Images/Image1.jpg");
     background-position: bottom;
 }
 
 #mosque {
-    background-image: url("mosque.jpg");
+    background-image: url("Images/mosque.jpg");
     background-position: bottom;
 }
 
 #laundry {
-    background-image: url("laundry.jpg");
+    background-image: url("Images/laundry.jpg");
 }
 
 #basketball {
-    background-image: url("basketball.jpg");
+    background-image: url("Images/basketball.jpg");
 }
 
 #store {
-    background-image: url("store.jpg");
+    background-image: url("Images/store.jpg");
 }
 
 .description {
