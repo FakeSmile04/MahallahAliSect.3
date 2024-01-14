@@ -32,17 +32,17 @@ function hideDesc(event){
     this.children[0].style.visibility = "visible"; //first <p> of the div, class description
     this.style.background = "none";
     if (this == document.querySelector("#cafe")){
-        this.style.backgroundImage = 'url("Image1.jpg")';
+        this.style.backgroundImage = 'url("Images/Image1.jpg")';
         this.style.backgroundPosition = "bottom";
     }else if(this == document.querySelector("#mosque")){
-        this.style.backgroundImage = 'url("mosque.jpg")';
+        this.style.backgroundImage = 'url("Images/mosque.jpg")';
         this.style.backgroundPosition = "bottom";
     }else if(this == document.querySelector("#laundry")){
-        this.style.backgroundImage = 'url("laundry.jpg")';
+        this.style.backgroundImage = 'url("Images/laundry.jpg")';
     }else if(this == document.querySelector("#basketball")){
-        this.style.backgroundImage = 'url("basketball.jpg")';
+        this.style.backgroundImage = 'url("Images/basketball.jpg")';
     }else{
-        this.style.backgroundImage = 'url("store.jpg")';
+        this.style.backgroundImage = 'url("Images/store.jpg")';
     }
     this.style.backgroundSize = "cover";
     //this.style.visibility = "visible";
